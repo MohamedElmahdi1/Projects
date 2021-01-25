@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Fit Gym</title>
+	<meta charset="windows-1252">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="Q1-script.js" defer></script>
+	<link rel="stylesheet" href="Q1-styles.css">
+</head>
+<body>
+	<h1 id="h1" align ="center">Fit Gym</h1>
+	<fieldset id="fieldset">
+		<legend>Gym membership application:</legend>
+
+		<label for="fname">First name:</label><br>
+		<input type="text" id="fname" name="fname" required><br>
+
+		<label for="lname">Last name:</label><br>
+		<input type="text" id="lname" name="lname" required><br>
+
+		<label for="age">Age:</label><br>
+		<input type="text" id="age" name="age" required><br>
+
+		<label for="height">Height:</label><br>
+
+		<label for="feet">Feet:</label>
+		<select id="feet" name="feet" required>
+			<option value="4">4'</option>
+			<option value="5">5'</option>
+			<option value="6">6'</option>
+		</select>
+		<label for="inches">Inches:</label>
+		<select id="inches" name="inches" required>
+			<option value="0">0"</option>
+			<option value="1">1"</option>
+			<option value="2">2"</option>
+			<option value="3">3"</option>
+			<option value="4">4"</option>
+			<option value="5">5"</option>
+			<option value="6">6"</option>
+			<option value="7">7"</option>
+			<option value="8">8"</option>
+			<option value="9">9"</option>
+			<option value="10">10"</option>
+			<option value="11">11"</option>
+		</select><br>
+
+		<label for="start">Start date:</label>
+
+		<input type="date" id="startDate" name="startDate" value="2020-02-24" min="2020-02-24" max="2030-02-20"
+			required><br>
+
+		<button id="Display" onclick="Display();">Display</button>
+		<button onclick="reset();">Reset</button>
+
+	</fieldset>
+	<br>
+
+	<table id="table" style="width:100%">
+		<tr>
+			<th>Firstname</th>
+			<th>Lastname</th>
+			<th>Age</th>
+			<th>Height</th>
+			<th>Start date</th>
+			<th>Removing Records</th>
+		</tr>
+	</table>
+	<p id="p"> Rows: </p>
+</body>
+
+</html>
