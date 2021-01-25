@@ -6,5 +6,4 @@ Web application part A is numerous web applications and a game, there is a nough
 
 Web application part B is a small demonstartion of a system for student grades which teachers could make use of. this involved use of SQL queries and php code.
 
-NotTwitter is my lastest project it is a simple demonstartion of twitter and how it operates. This was coded using the MVC framework in codeigniter.
 
